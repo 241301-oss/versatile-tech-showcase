@@ -1,3 +1,4 @@
+import { createFileRoute } from '@tanstack/react-router'
 // Static site — no router needed
 import {
   ArrowRight,
@@ -34,9 +35,7 @@ import heroImg from "@/assets/hero-engineer.jpg";
 import teamImg from "@/assets/about-team.jpg";
 import technicianImg from "@/assets/technician.jpg";
 
-export const Route = createFileRoute("/")({
-  component: Index,
-});
+export default function App() { return <Index />; }
 
 const services = [
   {
