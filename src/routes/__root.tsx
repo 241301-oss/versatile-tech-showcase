@@ -77,21 +77,75 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Versatile Tech Solution | Reliable IT Support & Business Technology Services" },
+      {
+        name: "description",
+        content:
+          "Versatile Tech Solution delivers reliable IT support, networking, infrastructure management, hardware services, POS solutions, and router configuration for modern businesses.",
+      },
+      {
+        name: "keywords",
+        content:
+          "IT Support, Networking, Business IT, Router Installation, POS Services, IT Infrastructure, Hardware Support, Managed IT Services",
+      },
+      { name: "author", content: "Versatile Tech Solution" },
+      { name: "theme-color", content: "#00B8F0" },
+      {
+        property: "og:title",
+        content: "Versatile Tech Solution | Reliable IT Support & Business Technology",
+      },
+      {
+        property: "og:description",
+        content:
+          "Fast, secure and scalable IT solutions — support, networking, hardware, POS and infrastructure services trusted by modern businesses.",
+      },
       { property: "og:type", content: "website" },
+      { property: "og:site_name", content: "Versatile Tech Solution" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
+      {
+        name: "twitter:title",
+        content: "Versatile Tech Solution | Reliable IT Support",
+      },
+      {
+        name: "twitter:description",
+        content:
+          "Fast, secure and scalable IT solutions for modern businesses.",
+      },
     ],
     links: [
+      { rel: "stylesheet", href: appCss },
+      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      {
+        rel: "preconnect",
+        href: "https://fonts.gstatic.com",
+        crossOrigin: "anonymous",
+      },
       {
         rel: "stylesheet",
-        href: appCss,
+        href: "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
       },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+    ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          name: "Versatile Tech Solution",
+          url: "/",
+          telephone: "+1-737-283-3257",
+          email: "Support@versatiletechsolution.com",
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: "9346 Via Murano Court",
+            addressLocality: "Fort Myers",
+            addressRegion: "FL",
+            postalCode: "33905",
+            addressCountry: "US",
+          },
+        }),
+      },
     ],
   }),
   shellComponent: RootShell,
