@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+// Static site — no router needed
 import {
   ArrowRight,
   Monitor,
