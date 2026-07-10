@@ -30,7 +30,7 @@ export function Navbar() {
           : "bg-transparent"
       }`}
     >
-      <div className="container-x flex h-18 items-center justify-between py-3">
+      <div className="container-x flex h-20 items-center justify-between py-3">
         <a href="#home" className="shrink-0">
           <Logo />
         </a>
