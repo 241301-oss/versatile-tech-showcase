@@ -630,7 +630,7 @@ function Index() {
                   <CalendarClock className="h-4 w-4" /> Schedule a Free Call
                 </a>
                 <a
-                  href="mailto:Support@versatiletechsolution.com"
+                  href="mailto:versatile.techdispatch@versatiledispatchbpo.com"
                   className="inline-flex items-center gap-2 rounded-full border border-border bg-white px-7 py-3.5 text-sm font-semibold text-navy hover:border-primary hover:text-primary transition-colors"
                 >
                   Contact Information
@@ -656,10 +656,10 @@ function Index() {
                     Email
                   </div>
                   <a
-                    href="mailto:Support@versatiletechsolution.com"
+                    href="mailto:versatile.techdispatch@versatiledispatchbpo.com"
                     className="mt-1 block text-sm font-semibold text-navy hover:text-primary break-words"
                   >
-                    Support@versatiletechsolution.com
+                    versatile.techdispatch@versatiledispatchbpo.com
                   </a>
                 </div>
                 <div className="rounded-2xl border border-border bg-white p-5">
@@ -668,9 +668,9 @@ function Index() {
                     Address
                   </div>
                   <div className="mt-1 text-sm font-semibold text-navy leading-relaxed">
-                    9346 Via Murano Court
+                    5900 Balcones Dr, STE 12908
                     <br />
-                    Fort Myers FL 33905
+                    Austin TX 78731
                   </div>
                 </div>
               </div>
@@ -679,7 +679,7 @@ function Index() {
             <div className="relative rounded-[24px] overflow-hidden border border-border min-h-[400px]">
               <iframe
                 title="Versatile Tech Solution location"
-                src="https://www.google.com/maps?q=9346+Via+Murano+Court+Fort+Myers+FL+33905&output=embed"
+                src="https://www.google.com/maps?q=5900+Balcones+Dr+STE+12908+Austin+TX+78731&output=embed"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 className="absolute inset-0 h-full w-full"
@@ -775,12 +775,12 @@ function Index() {
                 <li className="flex items-start gap-3">
                   <Mail className="h-4 w-4 mt-0.5 text-primary shrink-0" />
                   <span className="break-words">
-                    Support@versatiletechsolution.com
+                    versatile.techdispatch@versatiledispatchbpo.com
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <MapPin className="h-4 w-4 mt-0.5 text-primary shrink-0" />
-                  9346 Via Murano Court, Fort Myers FL 33905
+                  5900 Balcones Dr, STE 12908, Austin TX 78731
                 </li>
               </ul>
             </div>
